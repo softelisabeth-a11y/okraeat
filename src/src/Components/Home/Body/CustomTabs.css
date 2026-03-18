@@ -1,0 +1,64 @@
+.custom-tab-res {
+  /* display: inline-block; */
+  /* margin-right: 10px; */
+  /* padding-bottom: 5px; */
+  cursor: pointer;
+  /* background-color: red; */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 14px !important;
+  font-weight: 500;
+ 
+
+
+
+}
+
+.custom-tab-res.active {
+  border-bottom: 2px solid #000000;
+  /* background-color: yellow; */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto'sans-serif;
+  font-size: 14px !important;
+  font-weight: 500;
+ 
+
+}
+
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value, .rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value{
+
+  color: #000 !important;
+  font-family: 'Roboto' sans-serif;
+  /* font-size: 12px !important; */
+  font-weight: 400;
+
+}
+
+@media screen and (max-width: 350px){
+
+    .custom-tab-res{   font-size: 10px !important; }
+    .custom-tab-res.active{   font-size: 10px !important; }
+    }
+@media screen and (max-width: 390px){
+
+    .custom-tab-res{   font-size: 10px !important; }
+    .custom-tab-res.active{   font-size: 10px !important; }
+    }
+
+@media screen and (max-width: 500px){
+
+    .custom-tab-res{   font-size: 10px !important; }
+    .custom-tab-res.active{   font-size: 10px !important; }
+    }
+
+    
+    @media screen and (max-width: 600px){
+
+    
+    }

@@ -1,0 +1,64 @@
+
+.rs-picker-select-menu-item{
+    color : #000000 !important;
+}
+
+
+/* ---------------------media query--------------------------------------- */
+
+
+@media screen and (max-width: 390px){
+
+    
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn-active,
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:hover,
+ .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active,
+  .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover{
+
+ font-weight :400;
+font-size :10px
+}
+
+.rs-picker-default .rs-btn{
+ height: 30px;
+ font-size :10px
+
+}
+
+
+.rs-picker-toggle-active, .rs-picker.rs-picker-focused{
+ box-shadow: none !important;
+}
+
+.rs-picker-default .rs-picker-toggle.rs-btn {
+ padding-top: 4px !important;
+}
+
+.rs-picker-default .rs-picker-toggle.rs-btn .rs-picker-toggle-caret,
+.rs-picker-default .rs-picker-toggle.rs-btn .rs-picker-toggle-clean {
+ top: 5px !important;
+
+ 
+}
+.rs-picker-select-menu-item{
+  
+}
+   
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+    @media screen and (max-width: 600px){
+    
+    }

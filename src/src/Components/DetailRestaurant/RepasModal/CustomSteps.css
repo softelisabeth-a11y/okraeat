@@ -1,0 +1,167 @@
+.custom-steps {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.custom-steps .rs-steps-item-content {
+  background-color: none !important; /* Couleur de fond des étapes */
+  color:  #F05801; /* Couleur du texte des étapes */
+}
+
+.custom-steps .rs-steps-item-tail .rs-steps-item-tail::before {
+  border-width: 5px !important;
+  background-color: #C5C7CD !important; /* Couleur de la ligne de liaison entre les étapes */
+}
+
+.rs-steps-item-status-wait .rs-steps-item-title:after{
+  border-color: #C5C7CD !important;
+  background-color: #C5C7CD !important;
+  border-top-width: 5px !important;
+}
+
+.rs-steps-item-status-process .rs-steps-item-title:after{
+  border-color: #F05801 !important;
+  background-color: #F05801 !important;
+  border-top-width: 5px !important;
+}
+
+.rs-steps-item-status-finish .rs-steps-item-title:after{
+  border-color: #F05801 !important;
+  background-color: #F05801 !important;
+  border-top-width: 5px !important;
+}
+
+
+/* cercles */
+.rs-steps-item-status-finish .rs-steps-item-icon-wrapper{
+  border-color: #F05801 !important;
+  background-color: #F05801 !important;
+  color: #FFF;
+}
+
+.rs-steps-item-status-process .rs-steps-item-icon-wrapper{
+  border-color: #F05801 !important;
+  background-color: #F05801 !important;
+  color: #F05801 !important;
+}
+
+.rs-steps-item-status-wait .rs-steps-item-icon-wrapper{
+  border-color: #C5C7CD;
+  background-color: #C5C7CD;
+  color: #FFF;
+}
+
+
+.rs-steps-horizontal .rs-steps-item:not(:first-child){
+  /* padding-left: 0; */
+}
+
+
+
+/* icons */
+.rs-steps-item-status-process .rs-steps-item-icon-wrapper .rs-steps-item-icon .rs-steps-item-icon-wait{
+  border-color: #C5C7CD;
+  background-color: #C5C7CD;
+  color: #C5C7CD;
+}
+
+
+
+
+.custom-steps .rs-steps-item-icon {
+  color: #FFF; /* Couleur de l'icône des étapes */
+}
+
+
+
+
+
+/* Modal */
+.modal-body {
+  padding: 24px !important;
+}
+
+
+/* PANEL */
+.rs-panel-body{
+  padding: 0 !important;
+}
+.eDFgYj{
+  padding: 24px 0px !important;
+}
+
+
+/* TOOGLE */
+.rs-toggle-checked .rs-toggle-presentation{
+  background-color: var(--primary-color) !important;
+}
+
+
+
+
+/* selectlist */
+.rs-picker-menu{
+  z-index: 10000 !important;
+}
+
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn-active,
+ .rs-picker-default:not(.rs-picker-disabled) .rs-btn:focus,
+ .rs-picker-default:not(.rs-picker-disabled) .rs-btn:hover,
+  .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active,
+   .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:focus,
+ .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover{
+  border-color: var(--primary-color) !important;
+ }
+
+ .rs-picker-default .rs-btn{
+  height: 52px;
+ }
+
+.rs-picker-toggle-active, .rs-picker.rs-picker-focused{
+  box-shadow: none !important;
+}
+
+.rs-picker-default .rs-picker-toggle.rs-btn {
+  padding-top: 15px !important;
+}
+
+.rs-picker-default .rs-picker-toggle.rs-btn .rs-picker-toggle-caret,
+ .rs-picker-default .rs-picker-toggle.rs-btn .rs-picker-toggle-clean {
+  top: 15px !important;
+}
+
+/* multiple selectlist */
+.rs-picker-value-item{
+  background-color: var(--primary-color) !important;
+  color: #FFF !important;
+  padding: 3px !important;
+  border-radius: 4px !important;
+}
+
+.rs-picker-value-count{
+  background-color: var(--primary-color) !important;
+  color: #FFF !important;
+}
+
+.rs-picker-value-separator{
+  color: var(--primary-color);
+}
+
+
+
+/* checkbox */
+.rs-checkbox-wrapper:before {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.rs-checkbox-checked .rs-checkbox-wrapper .rs-checkbox-inner:before,
+ .rs-checkbox-indeterminate .rs-checkbox-wrapper .rs-checkbox-inner:before {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+ label:hover .rs-checkbox-wrapper .rs-checkbox-inner:before {
+    border-color: var(--primary-color) !important;
+}
